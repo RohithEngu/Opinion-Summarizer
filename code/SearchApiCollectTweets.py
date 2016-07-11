@@ -69,10 +69,10 @@ def collectTweets(file,keywords,collection,numTweets):
 
         # create a TwitterSearch object with our secret tokens
         ts = TwitterSearch(
-            consumer_key = 'Hvq33CfuafOFrbDJOrSAKNkLg',
-            consumer_secret = '3u37qtXeNQF60C0npQeG4rMeZOCFPlmRwHn97akWFVdk6sabBJ',
-            access_token = '33020840-hDoKHyIfU4PobFpZifignmJHOXZoY22FxBOG95swf',
-            access_token_secret = 'smjekhIny8IePpvC1ZQoDp9Bh20lOgeMie255BHy1kxI5'
+            consumer_key = '',
+            consumer_secret = '',
+            access_token = '',
+            access_token_secret = ''
          )
         global count 
         for tweet in ts.search_tweets_iterable(tso):
